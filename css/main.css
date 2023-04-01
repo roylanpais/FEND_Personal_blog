@@ -12,6 +12,9 @@
 
 @import "post_card.css";
 @import "blog_post.css";
+@import "footer.css";
+@import "sidebar.css";
+
 
 /* mobile */
 
@@ -167,71 +170,6 @@ h3 {
     font-weight: 700;
     color: #2a5d68;
     cursor: pointer;
-}
-
-/* footer */
-.social-menu {
-    width: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5px;
-}
-
-.social-menu li{
-    font-size: 22px;
-    list-style: none;
-}
-
-/* fsocial media icons */
-.fa-facebook-square,
-.fa-instagram,
-.fa-twitter-square,
-.fa-linkedin-square,
-.fa-envelope {
-    text-align: center;
-    text-decoration: none;
-    color: #f1ece9;
-    background-color: #2a5d68;
-    margin-left: 10px;
-}
-
-.contact-me {
-    width: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/*sidebar*/
-.sidebar a {
-    font-size: 1.1em;
-    color: black;
-    text-decoration: none;
-    
-}
-
-.sidebar a:hover {
-    color: #3f4b6e;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.sidebar h2 {
-    font-size: 1.4em;
-    text-align: center;
-}
-
-.sidebar h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font: 1.2em;
-    font-weight: 600;
-}
-
-.sidebar ul {
-    padding-left: 20px;
-
-  
 }
 
  /* small desktops*/

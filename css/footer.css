@@ -1,0 +1,32 @@
+/* footer */
+.social-menu {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+
+.social-menu li{
+    font-size: 22px;
+    list-style: none;
+}
+
+/* fsocial media icons */
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter-square,
+.fa-linkedin-square,
+.fa-envelope {
+    text-align: center;
+    text-decoration: none;
+    color: #f1ece9;
+    background-color: #2a5d68;
+    margin-left: 10px;
+}
+
+.contact-me {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
